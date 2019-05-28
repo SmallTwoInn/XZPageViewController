@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2C5B5B238C443C74AF26DD /* libPods-XZPageViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241CFFA674349659AE630184 /* libPods-XZPageViewController.a */; };
 		D7095A8F229D322500B0AAAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095A8E229D322500B0AAAE /* AppDelegate.m */; };
 		D7095A92229D322500B0AAAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095A91229D322500B0AAAE /* ViewController.m */; };
 		D7095A95229D322500B0AAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7095A93229D322500B0AAAE /* Main.storyboard */; };
 		D7095A97229D322700B0AAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7095A96229D322700B0AAAE /* Assets.xcassets */; };
 		D7095A9A229D322700B0AAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7095A98229D322700B0AAAE /* LaunchScreen.storyboard */; };
 		D7095A9D229D322700B0AAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095A9C229D322700B0AAAE /* main.m */; };
+		D7095ADB229D380600B0AAAE /* XZPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095ACC229D380600B0AAAE /* XZPageView.m */; };
+		D7095ADC229D380600B0AAAE /* XZPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095ACE229D380600B0AAAE /* XZPageViewController.m */; };
+		D7095ADD229D380600B0AAAE /* XZPageViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AD0229D380600B0AAAE /* XZPageViewLayout.m */; };
+		D7095ADE229D380600B0AAAE /* XZTabBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AD3229D380600B0AAAE /* XZTabBarCollectionViewCell.m */; };
+		D7095ADF229D380600B0AAAE /* XZTabBarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AD5229D380600B0AAAE /* XZTabBarLayout.m */; };
+		D7095AE0229D380600B0AAAE /* XZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AD7229D380600B0AAAE /* XZTabBarView.m */; };
+		D7095AE4229D384B00B0AAAE /* XZTabPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AE3229D384B00B0AAAE /* XZTabPageViewController.m */; };
+		D7095AE7229D385900B0AAAE /* XZTabPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7095AE6229D385900B0AAAE /* XZTabPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241CFFA674349659AE630184 /* libPods-XZPageViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZPageViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD833B266276170B4A10ADD /* Pods-XZPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZPageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZPageViewController/Pods-XZPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		9EB40B5E7728C8E713D408C3 /* Pods-XZPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZPageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZPageViewController/Pods-XZPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		D7095A8A229D322500B0AAAE /* XZPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7095A8D229D322500B0AAAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7095A8E229D322500B0AAAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,22 @@
 		D7095A99229D322700B0AAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7095A9B229D322700B0AAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7095A9C229D322700B0AAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7095ACB229D380600B0AAAE /* XZPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPageView.h; sourceTree = "<group>"; };
+		D7095ACC229D380600B0AAAE /* XZPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPageView.m; sourceTree = "<group>"; };
+		D7095ACD229D380600B0AAAE /* XZPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPageViewController.h; sourceTree = "<group>"; };
+		D7095ACE229D380600B0AAAE /* XZPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPageViewController.m; sourceTree = "<group>"; };
+		D7095ACF229D380600B0AAAE /* XZPageViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPageViewLayout.h; sourceTree = "<group>"; };
+		D7095AD0229D380600B0AAAE /* XZPageViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPageViewLayout.m; sourceTree = "<group>"; };
+		D7095AD2229D380600B0AAAE /* XZTabBarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTabBarCollectionViewCell.h; sourceTree = "<group>"; };
+		D7095AD3229D380600B0AAAE /* XZTabBarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTabBarCollectionViewCell.m; sourceTree = "<group>"; };
+		D7095AD4229D380600B0AAAE /* XZTabBarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTabBarLayout.h; sourceTree = "<group>"; };
+		D7095AD5229D380600B0AAAE /* XZTabBarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTabBarLayout.m; sourceTree = "<group>"; };
+		D7095AD6229D380600B0AAAE /* XZTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZTabBarView.h; sourceTree = "<group>"; };
+		D7095AD7229D380600B0AAAE /* XZTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZTabBarView.m; sourceTree = "<group>"; };
+		D7095AE2229D384B00B0AAAE /* XZTabPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZTabPageViewController.h; sourceTree = "<group>"; };
+		D7095AE3229D384B00B0AAAE /* XZTabPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZTabPageViewController.m; sourceTree = "<group>"; };
+		D7095AE5229D385900B0AAAE /* XZTabPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZTabPageView.h; sourceTree = "<group>"; };
+		D7095AE6229D385900B0AAAE /* XZTabPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZTabPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2C5B5B238C443C74AF26DD /* libPods-XZPageViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AF0D689CAFD7D42EEF034AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241CFFA674349659AE630184 /* libPods-XZPageViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A495FBAA7FA225394CDF0F88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EB40B5E7728C8E713D408C3 /* Pods-XZPageViewController.debug.xcconfig */,
+				5AD833B266276170B4A10ADD /* Pods-XZPageViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D7095A81229D322500B0AAAE = {
 			isa = PBXGroup;
 			children = (
 				D7095A8C229D322500B0AAAE /* XZPageViewController */,
 				D7095A8B229D322500B0AAAE /* Products */,
+				A495FBAA7FA225394CDF0F88 /* Pods */,
+				4AF0D689CAFD7D42EEF034AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +106,7 @@
 		D7095A8C229D322500B0AAAE /* XZPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D7095AC9229D380600B0AAAE /* XZPageController */,
 				D7095A8D229D322500B0AAAE /* AppDelegate.h */,
 				D7095A8E229D322500B0AAAE /* AppDelegate.m */,
 				D7095A90229D322500B0AAAE /* ViewController.h */,
@@ -71,6 +120,53 @@
 			path = XZPageViewController;
 			sourceTree = "<group>";
 		};
+		D7095AC9229D380600B0AAAE /* XZPageController */ = {
+			isa = PBXGroup;
+			children = (
+				D7095ACA229D380600B0AAAE /* XZPageView */,
+				D7095AD1229D380600B0AAAE /* XZTabBarView */,
+				D7095AD8229D380600B0AAAE /* XZTabPageManager */,
+			);
+			path = XZPageController;
+			sourceTree = "<group>";
+		};
+		D7095ACA229D380600B0AAAE /* XZPageView */ = {
+			isa = PBXGroup;
+			children = (
+				D7095ACB229D380600B0AAAE /* XZPageView.h */,
+				D7095ACC229D380600B0AAAE /* XZPageView.m */,
+				D7095ACD229D380600B0AAAE /* XZPageViewController.h */,
+				D7095ACE229D380600B0AAAE /* XZPageViewController.m */,
+				D7095ACF229D380600B0AAAE /* XZPageViewLayout.h */,
+				D7095AD0229D380600B0AAAE /* XZPageViewLayout.m */,
+			);
+			path = XZPageView;
+			sourceTree = "<group>";
+		};
+		D7095AD1229D380600B0AAAE /* XZTabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				D7095AD2229D380600B0AAAE /* XZTabBarCollectionViewCell.h */,
+				D7095AD3229D380600B0AAAE /* XZTabBarCollectionViewCell.m */,
+				D7095AD4229D380600B0AAAE /* XZTabBarLayout.h */,
+				D7095AD5229D380600B0AAAE /* XZTabBarLayout.m */,
+				D7095AD6229D380600B0AAAE /* XZTabBarView.h */,
+				D7095AD7229D380600B0AAAE /* XZTabBarView.m */,
+			);
+			path = XZTabBarView;
+			sourceTree = "<group>";
+		};
+		D7095AD8229D380600B0AAAE /* XZTabPageManager */ = {
+			isa = PBXGroup;
+			children = (
+				D7095AE2229D384B00B0AAAE /* XZTabPageViewController.h */,
+				D7095AE3229D384B00B0AAAE /* XZTabPageViewController.m */,
+				D7095AE5229D385900B0AAAE /* XZTabPageView.h */,
+				D7095AE6229D385900B0AAAE /* XZTabPageView.m */,
+			);
+			path = XZTabPageManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7095AA0229D322700B0AAAE /* Build configuration list for PBXNativeTarget "XZPageViewController" */;
 			buildPhases = (
+				517D6D20C0953A2449D9FAF5 /* [CP] Check Pods Manifest.lock */,
 				D7095A86229D322500B0AAAE /* Sources */,
 				D7095A87229D322500B0AAAE /* Frameworks */,
 				D7095A88229D322500B0AAAE /* Resources */,
+				F90F410FCC6B8C3E85A67187 /* [CP] Embed Pods Frameworks */,
+				39CA78582D69E5BBB1BEF00E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +235,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39CA78582D69E5BBB1BEF00E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZPageViewController/Pods-XZPageViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		517D6D20C0953A2449D9FAF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XZPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90F410FCC6B8C3E85A67187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZPageViewController/Pods-XZPageViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7095A86229D322500B0AAAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7095AE7229D385900B0AAAE /* XZTabPageView.m in Sources */,
+				D7095ADE229D380600B0AAAE /* XZTabBarCollectionViewCell.m in Sources */,
+				D7095AE0229D380600B0AAAE /* XZTabBarView.m in Sources */,
+				D7095ADC229D380600B0AAAE /* XZPageViewController.m in Sources */,
 				D7095A92229D322500B0AAAE /* ViewController.m in Sources */,
+				D7095ADB229D380600B0AAAE /* XZPageView.m in Sources */,
+				D7095AE4229D384B00B0AAAE /* XZTabPageViewController.m in Sources */,
 				D7095A9D229D322700B0AAAE /* main.m in Sources */,
 				D7095A8F229D322500B0AAAE /* AppDelegate.m in Sources */,
+				D7095ADD229D380600B0AAAE /* XZPageViewLayout.m in Sources */,
+				D7095ADF229D380600B0AAAE /* XZTabBarLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +453,7 @@
 		};
 		D7095AA1229D322700B0AAAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB40B5E7728C8E713D408C3 /* Pods-XZPageViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +471,7 @@
 		};
 		D7095AA2229D322700B0AAAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD833B266276170B4A10ADD /* Pods-XZPageViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
